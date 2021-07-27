@@ -10,7 +10,7 @@ Converts blal (Loop Asset List) files from machine code to human-readable format
 2. Open a command line and run `pip install blal`
 
 ### How to Use
-First, navigate to the folder that contains the CookData, then run the following function.
+First, navigate to the folder that contains the LoopAssetList.blal, then run the following function.
 
 ```blal [-b] file```
 * `file` - path to the file to convert. Will convert `BLAL` files to `YAML`, and vice versa. Ignores other file types.

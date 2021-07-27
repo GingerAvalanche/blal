@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="blal",
-    version="1.0",
+    version="1.0.1",
     author="Ginger",
     author_email="chodness@gmail.com",
     description="BLAL converter for LoZ:BotW",
@@ -14,7 +14,11 @@ setuptools.setup(
     url="https://github.com/GingerAvalanche/blal",
     include_package_data=True,
     packages=setuptools.find_packages(),
-    entry_points={"console_scripts": ["blal = blal.__main__:main",]},
+    entry_points={
+        "console_scripts": [
+            "blal = blal.__main__:main",
+        ]
+    },
     classifiers=[
         "Programming Language :: Python :: 3.7",
         "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
